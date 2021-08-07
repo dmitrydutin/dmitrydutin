@@ -5,7 +5,7 @@
 - 💪 I like to write code
 - ⚡ Fun fact: My nickname is dmitrydutin almost everywhere
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dmitrydutin&theme=dark&hide=jupyter%20notebook,php,vue,html,css,go&langs_count=8&layout=compact)](https://github.com/dmitrydutin/)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dmitrydutin&theme=light&layout=compact)](https://github.com/dmitrydutin/)
 
 ### Languages and Tools:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
