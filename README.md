@@ -9,9 +9,9 @@ In my spare time, I create beautiful and productive applications.
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dmitrydutin)
 
 ### Projects:
-- [Shelter](https://dmitrydutin.github.io/portfolio/shelter/pages/main/main.html)
-- [Momentum](https://dmitrydutin.github.io/portfolio/momentum/)
 - [English for kids](https://dmitrydutin-english-for-kids.netlify.app/)
+- [Shelter](https://dmitrydutin.github.io/dmitrydutin/shelter/pages/main/main.html)
+- [Momentum](https://dmitrydutin.github.io/dmitrydutin/momentum/)
 - [Covid dashboard](https://dev-covid-dashboard.netlify.app/)
 
 ### Languages and Tools:
@@ -21,5 +21,3 @@ In my spare time, I create beautiful and productive applications.
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Prettier](https://img.shields.io/badge/-Prettier-090909?style=for-the-badge&logo=Prettier)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dmitrydutin&theme=light&layout=compact)](https://github.com/dmitrydutin/)
