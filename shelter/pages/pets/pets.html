@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Shelter</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../../assets/icons/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="../../assets/icons/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="../../assets/icons/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="../../assets/icons/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="../../assets/icons/favicon/safari-pinned-tab.svg" color="#2d2d30" />
+        <link rel="shortcut icon" href="../../assets/icons/favicon/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#2d2d30" />
+        <meta name="msapplication-config" content="../../assets/icons/favicon/browserconfig.xml" />
+        <meta name="theme-color" content="#2d2d30" />
+
+        <!-- Meta -->
+        <meta name="author" content="Dmitry Dutin">
+        <meta name="description" content="Приют для животных. На сайте вы можете подробно ознакомится с животными из приюта.">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Shelter">
+        <meta name="image" property="og:image" content="../../assets/seo/main.png">
+        <meta property="og:description" content="Приют для животных. На сайте вы можете подробно ознакомится с животными из приюта.">
+        <meta property="og:url" content="https://dmitrydutin.github.io/portfolio/shelter/pages/pets/pets.html">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="pets.min.css" />
+
+        <!-- Scripts -->
+        <script src="pets.js" defer></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="../main/main.html" class="header__logo">
+                        <h1 class="header__logo__title">Cozy House</h1>
+                        <p class="header__logo__subtitle">Shelter for pets in Boston</p>
+                    </a>
+
+                    <button class="header__burger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <nav class="header__menu">
+                        <ul class="header__menu__list">
+                            <li class="header__menu__list__item">
+                                <a href="../main/main.html" class="header__menu__list__link"> About the shelter </a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a
+                                    href="../pets/pets.html"
+                                    class="header__menu__list__link header__menu__list__link--active"
+                                >
+                                    Our pets
+                                </a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a href="#" class="header__menu__list__link header__menu__list__link--disabled">
+                                    Help the shelter
+                                </a>
+                            </li>
+                            <li class="header__menu__list__item">
+                                <a href="#" class="header__menu__list__link header__menu__list__link--disabled">
+                                    Contacts
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="header__blackout"></div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="friends">
+                <div class="container">
+                    <div class="friends__inner">
+                        <h3 class="friends__title">Our friends who are&nbsp;looking for a house</h3>
+
+                        <div class="friends__slider">
+                            <div class="friend__track"></div>
+                        </div>
+
+                        <div class="friends__switches">
+                            <button class="friends__switch" disabled id="first">
+                                <svg width="25" height="11" viewBox="0 0 25 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.94687 10.7852L0.913671 6.08789V4.98438L9.94687 0.287109V1.625L2.43711 5.53125L9.94687 9.44727V10.7852ZM24.018 10.7852L14.9848 6.08789V4.98438L24.018 0.287109V1.625L16.5082 5.53125L24.018 9.44727V10.7852Z"
+                                        fill="inherit"
+                                    />
+                                </svg>
+                            </button>
+
+                            <button class="friends__switch" disabled id="prev">
+                                <svg width="10" height="11" viewBox="0 0 10 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.98242 10.7852L0.949219 6.08789V4.98438L9.98242 0.287109V1.625L2.47266 5.53125L9.98242 9.44727V10.7852Z"
+                                        fill="inherit"
+                                    />
+                                </svg>
+                            </button>
+
+                            <button class="friends__switch friends__switch--number" id="current">1</button>
+
+                            <button class="friends__switch friends__switch--reverse" id="next">
+                                <svg width="10" height="11" viewBox="0 0 10 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.98242 10.7852L0.949219 6.08789V4.98438L9.98242 0.287109V1.625L2.47266 5.53125L9.98242 9.44727V10.7852Z"
+                                        fill="inherit"
+                                    />
+                                </svg>
+                            </button>
+
+                            <button class="friends__switch friends__switch--reverse" id="last">
+                                <svg width="25" height="11" viewBox="0 0 25 11" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M9.94687 10.7852L0.913671 6.08789V4.98438L9.94687 0.287109V1.625L2.43711 5.53125L9.94687 9.44727V10.7852ZM24.018 10.7852L14.9848 6.08789V4.98438L24.018 0.287109V1.625L16.5082 5.53125L24.018 9.44727V10.7852Z"
+                                        fill="inherit"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="pets__blackout"></div>
+
+                        <div class="pets__popup">
+                            <div class="pets__popup__img">
+                                <img src="" alt="" />
+                            </div>
+
+                            <div class="pets__popup__content">
+                                <p class="pets__popup__name"></p>
+                                <p class="pets__popup__type"></p>
+                                <p class="pets__popup__description"></p>
+
+                                <ul class="pets__popup__info">
+                                    <li><strong>Age:</strong> <span id="age"></span></li>
+                                    <li><strong>Inoculations:</strong> <span id="inoculations"></span></li>
+                                    <li><strong>Diseases:</strong> <span id="diseases"></span></li>
+                                    <li><strong>Parasites:</strong> <span id="parasites"></span></li>
+                                </ul>
+                            </div>
+
+                            <button class="pets__close">
+                                <img src="../../assets/icons/close.svg" alt="Close icon" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__item">
+                        <h3 class="footer__title">For questions and suggestions</h3>
+                        <a href="mailto:email@shelter.com" class="footer__content">
+                            <img src="../../assets/icons/mail.svg" alt="Mail icon" />
+                            <h4 class="footer__text">email@shelter.com</h4>
+                        </a>
+
+                        <a href="tel:+136745677554" class="footer__content">
+                            <img src="../../assets/icons/phone.svg" alt="Phone icon" />
+                            <h4 class="footer__text">+13 674 567 75 54</h4>
+                        </a>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">We are waiting for your visit</h3>
+                        <a class="footer__content" href="https://goo.gl/maps/e6hHG5wEK4bWSKc39" target="_blank">
+                            <img src="../../assets/icons/pin.svg" alt="Pin icon" />
+                            <h4 class="footer__text footer__text--pin">
+                                1 Central Street, Boston (entrance from the store)
+                            </h4>
+                        </a>
+
+                        <a class="footer__content" href="https://goo.gl/maps/e6hHG5wEK4bWSKc39" target="_blank">
+                            <img src="../../assets/icons/pin.svg" alt="Pin icon" />
+                            <h4 class="footer__text footer__text--pin">18 South Park, London</h4>
+                        </a>
+                    </div>
+
+                    <picture class="footer__item">
+                        <source type="image/webp" srcset="../../assets/images/footer-puppy.webp" />
+                        <img src="../../assets/images/footer-puppy.png" alt="Footer puppy" class="footer__puppy" />
+                    </picture>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

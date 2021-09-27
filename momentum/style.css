@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    height: 100vh;
+    min-height: 55rem;
+    position: relative;
+
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: background-image 1s ease-in-out;
+}
+
+.output {
+    height: 100vh;
+    min-height: 55rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, .6);
+}
+
+
+/* Date */
+
+.time {
+    font-size: 10.5rem;
+    line-height: 1;
+}
+
+.date {
+    margin-top: 0.066rem;
+    font-size: 3rem;
+    opacity: 0.5;
+}
+
+
+/* Greeting */
+
+.greeting {
+    margin-top: 3.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.greeting__text {
+    margin-right: 0.666rem;
+    display: flex;
+    font-size: 2.75rem;
+    transition: all .25s ease-out;
+}
+
+.greeting__name {
+    min-width: 2rem;
+    display: flex;
+    cursor: pointer;
+    font-size: 2.8rem;
+}
+
+
+/* Target */
+
+.target {
+    margin-top: 1.3rem;
+    text-align: center;
+    opacity: 0.6;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.target__title {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+.target__text {
+    margin-top: 0.933rem;
+    min-width: 2rem;
+    display: flex;
+
+    cursor: pointer;
+    font-size: 2.3rem;
+    transition: all .25s ease-out;
+}
+
+
+/* Btn block */
+
+.btn_block {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 15px;
+    padding: 10px 15px;
+
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    transition: all .25s ease-out;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn[disabled=''] {
+    opacity: 0.3;
+    cursor: default;
+}
+
+.btn[disabled='']:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn:last-child {
+    margin-left: 1.333rem;
+}
+
+
+/* Weather */
+
+.weather {
+    padding: 11px 20px 0 0;
+    font-size: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.weather__inner {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.weather__inner:last-child {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.weather-icon {
+    margin-right: 18px;
+    font-size: 2.5em;
+}
+
+.temperature {
+    font-size: 2.7em;
+}
+
+.humidity {
+    font-size: 1.3em;
+}
+
+.wind-speed {
+    font-size: 1.3em;
+    letter-spacing: 0.15em;
+}
+
+.city {
+    min-width: 2em;
+    cursor: pointer;
+    font-size: 1.3em;
+    transition: all .25s ease-out;
+}
+
+
+/* Quote */
+
+.quote {
+    opacity: 0.7;
+    padding: 30px;
+    font-size: 15px;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote__text {
+    font-size: 1.6em;
+    line-height: 1.5;
+}
+
+
+@media (max-width: 730px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 11px;
+    }
+
+    .weather {
+        font-size: 13px;
+    }
+
+    .quote {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 7px;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>Momentum</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#2d2d30">
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#2d2d30">
+        <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Meta -->
+        <meta name="author" content="Dmitry Dutin">
+        <meta name="description" content="Красивая стартовая страница для вашего браузера">
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Momentum">
+        <meta name="image" property="og:image" content="assets/seo/momentum.png">
+        <meta property="og:description" content="Красивая стартовая страница для вашего браузера">
+        <meta property="og:url" content="https://dmitrydutin.github.io/portfolio/momentum/">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Scripts -->
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <div class="output">
+            <time id="time" class="time"></time>
+            <time id="date" class="date"></time>
+
+            <h1 class="greeting">
+                <span id="greeting" class="greeting__text"></span>
+                <span id="name" contenteditable="true" class="greeting__name"></span>
+            </h1>
+
+            <h2 class="target">
+                <span class="target__title">What Is Your Focus For Today?</span>
+                <span id="target" contenteditable="true" class="target__text"></span>
+            </h2>
+
+            <div class="btn_block">
+                <button class="btn quote__btn">Next quote</button>
+                <button class="btn background__btn">Next background</button>
+            </div>
+        </div>
+
+        <div class="weather">
+            <div class="weather__inner">
+                <i class="weather-icon owf"></i>
+                <div class="temperature"></div>
+            </div>
+            <div class="weather__inner">
+                <div class="humidity"></div>
+                <div class="wind-speed"></div>
+                <div class="city" contenteditable="true"></div>
+            </div>
+        </div>
+
+        <div class="quote">
+            <blockquote class="quote__text"></blockquote>
+        </div>
+    </body>
+</html>
