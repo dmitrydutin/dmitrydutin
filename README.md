@@ -10,9 +10,12 @@ In my spare time, I create beautiful and productive applications.
 
 ### Projects:
 - [English for kids](https://dmitrydutin-english-for-kids.netlify.app/)
-- [Shelter](https://dmitrydutin.github.io/portfolio/shelter/pages/main/main.html)
-- [Momentum](https://dmitrydutin.github.io/portfolio/momentum/)
 - [Covid dashboard](https://dev-covid-dashboard.netlify.app/)
+- [Gem puzzle](https://dmitrydutin.github.io/dmitrydutin/gem-puzzle/dist/index.html)
+- [Shelter](https://dmitrydutin.github.io/dmitrydutin/shelter/pages/main/main.html)
+- [Momentum](https://dmitrydutin.github.io/dmitrydutin/momentum/)
+- [Webdev](https://dmitrydutin.github.io/dmitrydutin/webdev/)
+- [Calculator](https://dmitrydutin.github.io/dmitrydutin/calculator/)
 
 ### Languages and Tools:
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
