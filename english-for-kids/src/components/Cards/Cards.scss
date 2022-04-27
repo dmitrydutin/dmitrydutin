@@ -1,0 +1,191 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.category {
+    padding: 40px 0 50px;
+
+    &__title {
+        color: $categoryTitleColor;
+        @include category-title-text;
+    }
+
+    &__cards {
+        margin-top: 55px;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+
+        @media (max-width: 1070px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 550px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__card {
+        cursor: pointer;
+        position: relative;
+        perspective: 1000px;
+        user-select: none;
+
+        &:hover &__front,
+        &:hover &__back {
+            border: 1px solid $categoryCardHoverBorderColor;
+        }
+
+        &.active:hover &__front,
+        &.active:hover &__back {
+            border: 1px solid $categoryCardActiveBorderColor;
+        }
+
+        &__front,
+        &__back {
+            backface-visibility: hidden;
+
+            display: flex;
+            flex-direction: column;
+
+            border-radius: 25px;
+            border: 1px solid transparent;
+            background-color: $categoryCardBackgroundColor;
+            box-shadow: $categoryCardShadow;
+
+            transition: border 0.13s ease, transform 0.6s ease;
+
+            @media (max-width: 1070px) {
+                border-radius: adaptive(25);
+            }
+        }
+
+        &__front {
+            position: relative;
+            @include disable-outline;
+
+            &__rotate-button {
+                width: 50px;
+                height: 50px;
+
+                position: absolute;
+                top: -15px;
+                right: -15px;
+
+                @include disable-outline;
+                border-radius: 50%;
+                background: no-repeat center/55% url('../../assets/images/rotate.svg') #fff;
+                box-shadow: 0 10px 35px -10px rgba(52, 87, 220, 0.35);
+            }
+
+            &.disabled {
+                cursor: default;
+                opacity: 0.5;
+            }
+        }
+
+        &__back {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(180deg);
+        }
+
+        &.rotated &__front {
+            transform: rotateY(180deg);
+        }
+
+        &.rotated &__back {
+            transform: rotateY(360deg);
+        }
+
+        &__image {
+            margin: 40px;
+            width: calc(100% - 80px);
+            pointer-events: none;
+        }
+
+        &__description {
+            padding: 25px 0 30px;
+            border-top: 1px solid $categoryCardCenterBorderColor;
+
+            @include category-card-text;
+        }
+    }
+
+    &__control-bar {
+        margin: 45px 0 20px;
+
+        display: flex;
+        justify-content: space-between;
+
+        &__start-game {
+            min-width: 159px;
+            padding: 17px 30px;
+            @include start-game-text;
+
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: 0 10px 35px -10px rgba(52, 87, 220, 0.35);
+
+            border: none;
+            @include disable-outline;
+            background-color: transparent;
+
+            &.active {
+                min-width: 0;
+                padding: 27.5px 27.5px;
+                font-size: 0;
+                border-radius: 50%;
+                background: no-repeat center/40% url('../../assets/images/repeat.svg') #fff;
+            }
+        }
+
+        &__status-block {
+            margin-left: 16px;
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex-grow: 1;
+
+            overflow-x: hidden;
+
+            &__star {
+                min-width: 35px;
+                height: 100%;
+                background: no-repeat center/65% url('../../assets/images/star.svg');
+            }
+
+            &__star--empty {
+                min-width: 35px;
+                height: 100%;
+                background: no-repeat center/65% url('../../assets/images/empty-star.svg');
+            }
+        }
+    }
+
+    &__popup {
+        width: 100%;
+        margin-top: 55px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__image {
+            max-width: 500px;
+            width: 100%;
+        }
+
+        &__text {
+            margin-top: 30px;
+            @include popup-text;
+        }
+    }
+}

@@ -1,0 +1,4 @@
+const MAX_CARDS_COUNT = 8;
+const DEFAULT_PERCENT = 0;
+
+export { MAX_CARDS_COUNT, DEFAULT_PERCENT };

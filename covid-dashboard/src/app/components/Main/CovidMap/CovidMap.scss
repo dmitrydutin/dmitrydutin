@@ -1,0 +1,164 @@
+@import '../../../../common/variables.scss';
+@import '../../../../common/mixins.scss';
+
+.covid-map-container {
+    width: 100%;
+    height: 650px;
+
+    grid-area: map;
+    position: relative;
+
+    border-radius: 5px;
+    border: 1px solid $primary-border-color;
+    background-color: $primary-color;
+
+    &.scale {
+        @include block-scale;
+    }
+
+    &.light {
+        border: 1px solid $primary-border-color-light;
+        background-color: $primary-color-light;
+    }
+}
+
+#mapid {
+    height: 600px;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    .map-button {
+        width: 100px;
+        height: 30px;
+        margin: 0 10px 10px;
+        background-color: $map-button-background-color;
+        color: #ffff;
+        outline: none;
+        border: 1px solid $map-button-background-color;
+        border-bottom: 3px solid $map-button-background-color;
+        cursor: pointer;
+    }
+
+    .active-button {
+        border-bottom: 3px solid #ffff;
+        background-color: $map-button-background-color-active;
+
+    }
+}
+
+.swiper-container {
+    width: 370px;
+    height: 50px;
+    margin: auto;
+    padding: 0 10px 10px;
+
+
+
+
+    .button-next,
+    .button-prev {
+        color: black;
+        height: 50%;
+        top: 60%;
+    }
+
+    .button-next {
+        right: 20px;
+    }
+
+    .button-prev {
+        left: 20px;
+    }
+
+    .swiper-slide {
+        width: 80%;
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        background-color: $map-button-background-color-active;
+        border-bottom: 3px solid #ffff;
+        color: #ffff;
+        border-top: none;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        span {
+            margin: 0 40px;
+            display: block;
+        }
+
+        @media (max-width: 1200px) {
+            font-size: 12px;
+        }
+    }
+}
+
+
+
+.light {
+    .swiper-slide {
+        background-color: $header-color-light;
+        border-bottom: 3px solid $map-button-background-color-active;
+        color: $primary-color;
+    }
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 15px $map-button-background-color;
+    border-radius: 5px;
+
+    h4 {
+        margin: 0 0 5px;
+        color: #777;
+    }
+
+    img {
+        width: 35px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    @media (max-width: 1200px) {
+        max-width: 200px;
+    }
+}
+
+.legend {
+    text-align: left;
+    color: #555;
+    width: 100px;
+
+    .legend-criterion {
+        padding: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    i {
+        float: left;
+        margin-right: 8px;
+        border-radius: 50%;
+        background: $map-button-background-color;
+    }
+}

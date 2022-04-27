@@ -1,0 +1,33 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.error-page {
+    padding: 30px;
+
+    &__inner {
+        margin: 92px 0 140px;
+        border-radius: 8px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__text {
+        max-width: 550px;
+        width: 100%;
+
+        color: $error-page-textColor;
+        @include error-page-text(48px);
+
+        @media (max-width: 1080px) {
+            max-width: 440px;
+            @include error-page-text(40px);
+        }
+
+        @media (max-width: 770px) {
+            max-width: 270px;
+            @include error-page-text(32px);
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.header {
+    padding: 3px;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    background-color: $headerBackgroundColor;
+}
+
+.burger-button {
+    width: 48px;
+    height: 48px;
+    padding: 18px 15px;
+
+    cursor: pointer;
+    @include disable-outline;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    &__line {
+        display: block;
+        width: 100%;
+        height: 2px;
+
+        border-radius: 0.5px;
+        background-color: $headerBurgerMenuColor;
+    }
+}
+
+.header__logo {
+    height: 48px;
+    padding: 0 10px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    &__text {
+        color: $header-logo-textColor;
+        @include header-logo-text;
+    }
+}
+
+.header__statistics {
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+
+    background: no-repeat center/35% url('../../assets/images/statistics.svg');
+}

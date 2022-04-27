@@ -1,0 +1,975 @@
+[
+    [
+        {
+            "code": "192",
+            "en": {
+                "default": "`",
+                "shift": "~",
+                "caps": "`",
+                "caps&shift": "~"
+            },
+            "ru": {
+                "default": "ё",
+                "shift": "Ё",
+                "caps": "Ё",
+                "caps&shift": "ё"
+            }
+        },
+        {
+            "code": "49",
+            "en": {
+                "default": "1",
+                "shift": "!",
+                "caps": "1",
+                "caps&shift": "!"
+            },
+            "ru": {
+                "default": "1",
+                "shift": "!",
+                "caps": "1",
+                "caps&shift": "!"
+            }
+        },
+        {
+            "code": "50",
+            "en": {
+                "default": "2",
+                "shift": "@",
+                "caps": "2",
+                "caps&shift": "@"
+            },
+            "ru": {
+                "default": "2",
+                "shift": "\"",
+                "caps": "2",
+                "caps&shift": "\""
+            }
+        },
+        {
+            "code": "51",
+            "en": {
+                "default": "3",
+                "shift": "#",
+                "caps": "3",
+                "caps&shift": "#"
+            },
+            "ru": {
+                "default": "3",
+                "shift": "№",
+                "caps": "3",
+                "caps&shift": "№"
+            }
+        },
+        {
+            "code": "52",
+            "en": {
+                "default": "4",
+                "shift": "$",
+                "caps": "4",
+                "caps&shift": "$"
+            },
+            "ru": {
+                "default": "4",
+                "shift": ";",
+                "caps": "4",
+                "caps&shift": ";"
+            }
+        },
+        {
+            "code": "53",
+            "en": {
+                "default": "5",
+                "shift": "%",
+                "caps": "5",
+                "caps&shift": "%"
+            },
+            "ru": {
+                "default": "5",
+                "shift": "%",
+                "caps": "5",
+                "caps&shift": "%"
+            }
+        },
+        {
+            "code": "54",
+            "en": {
+                "default": "6",
+                "shift": "^",
+                "caps": "6",
+                "caps&shift": "^"
+            },
+            "ru": {
+                "default": "6",
+                "shift": ":",
+                "caps": "6",
+                "caps&shift": ":"
+            }
+        },
+        {
+            "code": "55",
+            "en": {
+                "default": "7",
+                "shift": "&",
+                "caps": "7",
+                "caps&shift": "&"
+            },
+            "ru": {
+                "default": "7",
+                "shift": "?",
+                "caps": "7",
+                "caps&shift": "?"
+            }
+        },
+        {
+            "code": "56",
+            "en": {
+                "default": "8",
+                "shift": "*",
+                "caps": "8",
+                "caps&shift": "*"
+            },
+            "ru": {
+                "default": "8",
+                "shift": "*",
+                "caps": "8",
+                "caps&shift": "*"
+            }
+        },
+        {
+            "code": "57",
+            "en": {
+                "default": "9",
+                "shift": "(",
+                "caps": "9",
+                "caps&shift": "("
+            },
+            "ru": {
+                "default": "9",
+                "shift": "(",
+                "caps": "9",
+                "caps&shift": "("
+            }
+        },
+        {
+            "code": "48",
+            "en": {
+                "default": "0",
+                "shift": ")",
+                "caps": "0",
+                "caps&shift": ")"
+            },
+            "ru": {
+                "default": "0",
+                "shift": ")",
+                "caps": "0",
+                "caps&shift": ")"
+            }
+        },
+        {
+            "code": "189",
+            "en": {
+                "default": "-",
+                "shift": "_",
+                "caps": "-",
+                "caps&shift": "_"
+            },
+            "ru": {
+                "default": "-",
+                "shift": "_",
+                "caps": "-",
+                "caps&shift": "_"
+            }
+        },
+        {
+            "code": "187",
+            "en": {
+                "default": "=",
+                "shift": "+",
+                "caps": "=",
+                "caps&shift": "+"
+            },
+            "ru": {
+                "default": "=",
+                "shift": "+",
+                "caps": "=",
+                "caps&shift": "+"
+            }
+        },
+        {
+            "code": "8",
+            "en": {
+                "default": "Delete",
+                "shift": "Delete",
+                "caps": "Delete",
+                "caps&shift": "Delete"
+            },
+            "ru": {
+                "default": "Delete",
+                "shift": "Delete",
+                "caps": "Delete",
+                "caps&shift": "Delete"
+            },
+            "classes": ["md"],
+            "event": "delete"
+        }
+    ],
+    [
+        {
+            "code": "9",
+            "en": {
+                "default": "Tab",
+                "shift": "Tab",
+                "caps": "Tab",
+                "caps&shift": "Tab"
+            },
+            "ru": {
+                "default": "Tab",
+                "shift": "Tab",
+                "caps": "Tab",
+                "caps&shift": "Tab"
+            },
+            "classes": ["md"],
+            "event": "tab"
+        },
+        {
+            "code": "81",
+            "en": {
+                "default": "q",
+                "shift": "Q",
+                "caps": "Q",
+                "caps&shift": "q"
+            },
+            "ru": {
+                "default": "й",
+                "shift": "Й",
+                "caps": "Й",
+                "caps&shift": "й"
+            }
+        },
+        {
+            "code": "87",
+            "en": {
+                "default": "w",
+                "shift": "W",
+                "caps": "W",
+                "caps&shift": "w"
+            },
+            "ru": {
+                "default": "ц",
+                "shift": "Ц",
+                "caps": "Ц",
+                "caps&shift": "ц"
+            }
+        },
+        {
+            "code": "69",
+            "en": {
+                "default": "e",
+                "shift": "E",
+                "caps": "E",
+                "caps&shift": "e"
+            },
+            "ru": {
+                "default": "у",
+                "shift": "У",
+                "caps": "У",
+                "caps&shift": "у"
+            }
+        },
+        {
+            "code": "82",
+            "en": {
+                "default": "r",
+                "shift": "R",
+                "caps": "R",
+                "caps&shift": "r"
+            },
+            "ru": {
+                "default": "к",
+                "shift": "К",
+                "caps": "К",
+                "caps&shift": "к"
+            }
+        },
+        {
+            "code": "84",
+            "en": {
+                "default": "t",
+                "shift": "T",
+                "caps": "T",
+                "caps&shift": "t"
+            },
+            "ru": {
+                "default": "е",
+                "shift": "Е",
+                "caps": "Е",
+                "caps&shift": "е"
+            }
+        },
+        {
+            "code": "89",
+            "en": {
+                "default": "y",
+                "shift": "Y",
+                "caps": "Y",
+                "caps&shift": "y"
+            },
+            "ru": {
+                "default": "н",
+                "shift": "Н",
+                "caps": "Н",
+                "caps&shift": "н"
+            }
+        },
+        {
+            "code": "85",
+            "en": {
+                "default": "u",
+                "shift": "U",
+                "caps": "U",
+                "caps&shift": "u"
+            },
+            "ru": {
+                "default": "г",
+                "shift": "Г",
+                "caps": "Г",
+                "caps&shift": "г"
+            }
+        },
+        {
+            "code": "73",
+            "en": {
+                "default": "i",
+                "shift": "I",
+                "caps": "I",
+                "caps&shift": "i"
+            },
+            "ru": {
+                "default": "ш",
+                "shift": "Ш",
+                "caps": "Ш",
+                "caps&shift": "ш"
+            }
+        },
+        {
+            "code": "79",
+            "en": {
+                "default": "o",
+                "shift": "O",
+                "caps": "O",
+                "caps&shift": "o"
+            },
+            "ru": {
+                "default": "щ",
+                "shift": "Щ",
+                "caps": "Щ",
+                "caps&shift": "щ"
+            }
+        },
+        {
+            "code": "80",
+            "en": {
+                "default": "p",
+                "shift": "P",
+                "caps": "P",
+                "caps&shift": "p"
+            },
+            "ru": {
+                "default": "з",
+                "shift": "З",
+                "caps": "З",
+                "caps&shift": "з"
+            }
+        },
+        {
+            "code": "219",
+            "en": {
+                "default": "[",
+                "shift": "{",
+                "caps": "[",
+                "caps&shift": "["
+            },
+            "ru": {
+                "default": "х",
+                "shift": "Х",
+                "caps": "Х",
+                "caps&shift": "х"
+            }
+        },
+        {
+            "code": "221",
+            "en": {
+                "default": "]",
+                "shift": "}",
+                "caps": "]",
+                "caps&shift": "]"
+            },
+            "ru": {
+                "default": "ъ",
+                "shift": "Ъ",
+                "caps": "Ъ",
+                "caps&shift": "ъ"
+            }
+        },
+        {
+            "code": "220",
+            "en": {
+                "default": "\\",
+                "shift": "|",
+                "caps": "\\",
+                "caps&shift": "\\"
+            },
+            "ru": {
+                "default": "\\",
+                "shift": "/",
+                "caps": "\\",
+                "caps&shift": "\\"
+            }
+        }
+    ],
+    [
+        {
+            "code": "20",
+            "en": {
+                "default": "Caps",
+                "shift": "Caps",
+                "caps": "Caps",
+                "caps&shift": "Caps"
+            },
+            "ru": {
+                "default": "Caps",
+                "shift": "Caps",
+                "caps": "Caps",
+                "caps&shift": "Caps"
+            },
+            "classes": ["lg", "activatable"],
+            "event": "caps"
+        },
+        {
+            "code": "65",
+            "en": {
+                "default": "a",
+                "shift": "A",
+                "caps": "A",
+                "caps&shift": "a"
+            },
+            "ru": {
+                "default": "ф",
+                "shift": "Ф",
+                "caps": "Ф",
+                "caps&shift": "ф"
+            }
+        },
+        {
+            "code": "83",
+            "en": {
+                "default": "s",
+                "shift": "S",
+                "caps": "S",
+                "caps&shift": "s"
+            },
+            "ru": {
+                "default": "ы",
+                "shift": "Ы",
+                "caps": "Ы",
+                "caps&shift": "ы"
+            }
+        },
+        {
+            "code": "68",
+            "en": {
+                "default": "d",
+                "shift": "D",
+                "caps": "D",
+                "caps&shift": "d"
+            },
+            "ru": {
+                "default": "в",
+                "shift": "В",
+                "caps": "В",
+                "caps&shift": "в"
+            }
+        },
+        {
+            "code": "70",
+            "en": {
+                "default": "f",
+                "shift": "F",
+                "caps": "F",
+                "caps&shift": "f"
+            },
+            "ru": {
+                "default": "а",
+                "shift": "А",
+                "caps": "А",
+                "caps&shift": "а"
+            }
+        },
+        {
+            "code": "71",
+            "en": {
+                "default": "g",
+                "shift": "G",
+                "caps": "G",
+                "caps&shift": "g"
+            },
+            "ru": {
+                "default": "п",
+                "shift": "П",
+                "caps": "П",
+                "caps&shift": "п"
+            }
+        },
+        {
+            "code": "72",
+            "en": {
+                "default": "h",
+                "shift": "H",
+                "caps": "H",
+                "caps&shift": "h"
+            },
+            "ru": {
+                "default": "р",
+                "shift": "Р",
+                "caps": "Р",
+                "caps&shift": "р"
+            }
+        },
+        {
+            "code": "74",
+            "en": {
+                "default": "j",
+                "shift": "J",
+                "caps": "J",
+                "caps&shift": "j"
+            },
+            "ru": {
+                "default": "о",
+                "shift": "О",
+                "caps": "О",
+                "caps&shift": "о"
+            }
+        },
+        {
+            "code": "75",
+            "en": {
+                "default": "k",
+                "shift": "K",
+                "caps": "K",
+                "caps&shift": "k"
+            },
+            "ru": {
+                "default": "л",
+                "shift": "Л",
+                "caps": "Л",
+                "caps&shift": "л"
+            }
+        },
+        {
+            "code": "76",
+            "en": {
+                "default": "l",
+                "shift": "L",
+                "caps": "L",
+                "caps&shift": "l"
+            },
+            "ru": {
+                "default": "д",
+                "shift": "Д",
+                "caps": "Д",
+                "caps&shift": "д"
+            }
+        },
+        {
+            "code": "186",
+            "en": {
+                "default": ";",
+                "shift": ":",
+                "caps": ";",
+                "caps&shift": ":"
+            },
+            "ru": {
+                "default": "ж",
+                "shift": "Ж",
+                "caps": "Ж",
+                "caps&shift": "ж"
+            }
+        },
+        {
+            "code": "222",
+            "en": {
+                "default": "'",
+                "shift": "\"",
+                "caps": "'",
+                "caps&shift": "\""
+            },
+            "ru": {
+                "default": "э",
+                "shift": "Э",
+                "caps": "Э",
+                "caps&shift": "э"
+            }
+        },
+        {
+            "code": "13",
+            "en": {
+                "default": "Enter",
+                "shift": "Enter",
+                "caps": "Enter",
+                "caps&shift": "Enter"
+            },
+            "ru": {
+                "default": "Enter",
+                "shift": "Enter",
+                "caps": "Enter",
+                "caps&shift": "Enter"
+            },
+            "classes": ["lg"],
+            "event": "enter"
+        }
+    ],
+    [
+        {
+            "code": "16",
+            "en": {
+                "default": "Shift",
+                "shift": "Shift",
+                "caps": "Shift",
+                "caps&shift": "Shift"
+            },
+            "ru": {
+                "default": "Shift",
+                "shift": "Shift",
+                "caps": "Shift",
+                "caps&shift": "Shift"
+            },
+            "classes": ["xl", "activatable"],
+            "event": "shift",
+            "eventLocation": "1"
+        },
+        {
+            "code": "90",
+            "en": {
+                "default": "z",
+                "shift": "Z",
+                "caps": "Z",
+                "caps&shift": "z"
+            },
+            "ru": {
+                "default": "я",
+                "shift": "Я",
+                "caps": "Я",
+                "caps&shift": "я"
+            }
+        },
+        {
+            "code": "88",
+            "en": {
+                "default": "x",
+                "shift": "X",
+                "caps": "X",
+                "caps&shift": "x"
+            },
+            "ru": {
+                "default": "ч",
+                "shift": "Ч",
+                "caps": "Ч",
+                "caps&shift": "ч"
+            }
+        },
+        {
+            "code": "67",
+            "en": {
+                "default": "c",
+                "shift": "C",
+                "caps": "C",
+                "caps&shift": "c"
+            },
+            "ru": {
+                "default": "с",
+                "shift": "С",
+                "caps": "С",
+                "caps&shift": "с"
+            }
+        },
+        {
+            "code": "86",
+            "en": {
+                "default": "v",
+                "shift": "V",
+                "caps": "V",
+                "caps&shift": "v"
+            },
+            "ru": {
+                "default": "м",
+                "shift": "М",
+                "caps": "М",
+                "caps&shift": "м"
+            }
+        },
+        {
+            "code": "66",
+            "en": {
+                "default": "b",
+                "shift": "B",
+                "caps": "B",
+                "caps&shift": "b"
+            },
+            "ru": {
+                "default": "и",
+                "shift": "И",
+                "caps": "И",
+                "caps&shift": "и"
+            }
+        },
+        {
+            "code": "78",
+            "en": {
+                "default": "n",
+                "shift": "N",
+                "caps": "N",
+                "caps&shift": "n"
+            },
+            "ru": {
+                "default": "т",
+                "shift": "Т",
+                "caps": "Т",
+                "caps&shift": "т"
+            }
+        },
+        {
+            "code": "77",
+            "en": {
+                "default": "m",
+                "shift": "M",
+                "caps": "M",
+                "caps&shift": "m"
+            },
+            "ru": {
+                "default": "ь",
+                "shift": "Ь",
+                "caps": "Ь",
+                "caps&shift": "ь"
+            }
+        },
+        {
+            "code": "188",
+            "en": {
+                "default": ",",
+                "shift": "<",
+                "caps": ",",
+                "caps&shift": "<"
+            },
+            "ru": {
+                "default": "б",
+                "shift": "Б",
+                "caps": "Б",
+                "caps&shift": "б"
+            }
+        },
+        {
+            "code": "190",
+            "en": {
+                "default": ".",
+                "shift": ">",
+                "caps": ".",
+                "caps&shift": ">"
+            },
+            "ru": {
+                "default": "ю",
+                "shift": "Ю",
+                "caps": "Ю",
+                "caps&shift": "ю"
+            }
+        },
+        {
+            "code": "191",
+            "en": {
+                "default": "/",
+                "shift": "?",
+                "caps": "/",
+                "caps&shift": "?"
+            },
+            "ru": {
+                "default": ".",
+                "shift": ",",
+                "caps": ".",
+                "caps&shift": ","
+            }
+        },
+        {
+            "code": "16",
+            "en": {
+                "default": "Shift",
+                "shift": "Shift",
+                "caps": "Shift",
+                "caps&shift": "Shift"
+            },
+            "ru": {
+                "default": "Shift",
+                "shift": "Shift",
+                "caps": "Shift",
+                "caps&shift": "Shift"
+            },
+            "classes": ["xl"],
+            "event": "shift",
+            "eventLocation": "2"
+        }
+    ],
+    [
+        {
+            "code": "17",
+            "en": {
+                "default": "Ctrl",
+                "shift": "Ctrl",
+                "caps": "Ctrl",
+                "caps&shift": "Ctrl"
+            },
+            "ru": {
+                "default": "Ctrl",
+                "shift": "Ctrl",
+                "caps": "Ctrl",
+                "caps&shift": "Ctrl"
+            },
+            "classes": ["md"],
+            "event": "control",
+            "eventLocation": "1"
+        },
+        {
+            "code": null,
+            "en": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "ru": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "classes": ["close"],
+            "event": "close"
+        },
+        {
+            "code": null,
+            "en": {
+                "default": "en",
+                "shift": "en",
+                "caps": "en",
+                "caps&shift": "en"
+            },
+            "ru": {
+                "default": "ru",
+                "shift": "ru",
+                "caps": "ru",
+                "caps&shift": "ru"
+            },
+            "event": "lang"
+        },
+        {
+            "code": "18",
+            "en": {
+                "default": "Alt",
+                "shift": "Alt",
+                "caps": "Alt",
+                "caps&shift": "Alt"
+            },
+            "ru": {
+                "default": "Alt",
+                "shift": "Alt",
+                "caps": "Alt",
+                "caps&shift": "Alt"
+            },
+            "event": "alt",
+            "eventLocation": "1"
+        },
+        {
+            "code": "32",
+            "en": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "ru": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "classes": ["space"],
+            "event": "space"
+        },
+        {
+            "code": "18",
+            "en": {
+                "default": "Alt",
+                "shift": "Alt",
+                "caps": "Alt",
+                "caps&shift": "Alt"
+            },
+            "ru": {
+                "default": "Alt",
+                "shift": "Alt",
+                "caps": "Alt",
+                "caps&shift": "Alt"
+            },
+            "event": "alt",
+            "eventLocation": "2"
+        },
+        {
+            "code": "17",
+            "en": {
+                "default": "Ctrl",
+                "shift": "Ctrl",
+                "caps": "Ctrl",
+                "caps&shift": "Ctrl"
+            },
+            "ru": {
+                "default": "Ctrl",
+                "shift": "Ctrl",
+                "caps": "Ctrl",
+                "caps&shift": "Ctrl"
+            },
+            "classes": ["md"],
+            "event": "control",
+            "eventLocation": "2"
+        },
+        {
+            "code": "37",
+            "en": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "ru": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "classes": ["arrow-left"],
+            "event": "arrow-left"
+        },
+        {
+            "code": "39",
+            "en": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "ru": {
+                "default": "",
+                "shift": "",
+                "caps": "",
+                "caps&shift": ""
+            },
+            "classes": ["arrow-right"],
+            "event": "arrow-right"
+        }
+    ]
+]

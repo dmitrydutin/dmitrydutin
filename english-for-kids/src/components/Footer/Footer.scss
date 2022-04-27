@@ -1,0 +1,32 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.footer {
+    background-color: $footerBackgroundColor;
+
+    &__inner {
+        padding: 19px 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__site-info {
+        display: flex;
+
+        color: $footer-textColor;
+        @include footer-text;
+
+        &__author {
+            margin-left: 0.3em;
+        }
+    }
+
+    &__course-info {
+        width: 55px;
+        height: 25px;
+
+        background: no-repeat center/contain url('../../assets/images/course.svg');
+    }
+}

@@ -1,0 +1,442 @@
+[
+    {
+        "title": "Clothes",
+        "image": "clothes/sweater.svg",
+        "href": "/clothes",
+        "content": [
+            {
+                "word": "Sweater",
+                "translation": "Свитер",
+                "image": "clothes/sweater.svg",
+                "audio": "clothes/sweater.mp3"
+            },
+            {
+                "word": "Bow tie",
+                "translation": "Бабочка",
+                "image": "clothes/bow-tie.svg",
+                "audio": "clothes/bow-tie.mp3"
+            },
+            {
+                "word": "Gloves",
+                "translation": "Перчатки",
+                "image": "clothes/gloves.svg",
+                "audio": "clothes/gloves.mp3"
+            },
+            {
+                "word": "Handbag",
+                "translation": "Сумочка",
+                "image": "clothes/handbag.svg",
+                "audio": "clothes/handbag.mp3"
+            },
+            {
+                "word": "Dress",
+                "translation": "Платье",
+                "image": "clothes/dress.svg",
+                "audio": "clothes/dress.mp3"
+            },
+            {
+                "word": "Coat",
+                "translation": "Пальто",
+                "image": "clothes/overcoat.svg",
+                "audio": "clothes/overcoat.mp3"
+            },
+            {
+                "word": "Hat",
+                "translation": "Шапка",
+                "image": "clothes/hat.svg",
+                "audio": "clothes/hat.mp3"
+            },
+            {
+                "word": "Clock",
+                "translation": "Часы",
+                "image": "clothes/wristwatch.svg",
+                "audio": "clothes/wristwatch.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Space",
+        "image": "space/satellite.svg",
+        "href": "/space",
+        "content": [
+            {
+                "word": "Antenna",
+                "translation": "Антенна",
+                "image": "space/antenna.svg",
+                "audio": "space/antenna.mp3"
+            },
+            {
+                "word": "Asteroid",
+                "translation": "Астероид",
+                "image": "space/asteroid.svg",
+                "audio": "space/asteroid.mp3"
+            },
+            {
+                "word": "Astronaut",
+                "translation": "Космонавт",
+                "image": "space/astronaut.svg",
+                "audio": "space/astronaut.mp3"
+            },
+            {
+                "word": "Satellite",
+                "translation": "Спутник",
+                "image": "space/satellite.svg",
+                "audio": "space/satellite.mp3"
+            },
+            {
+                "word": "Sun",
+                "translation": "Солнце",
+                "image": "space/sun.svg",
+                "audio": "space/sun.mp3"
+            },
+            {
+                "word": "Orbit",
+                "translation": "Орбита",
+                "image": "space/orbit.svg",
+                "audio": "space/orbit.mp3"
+            },
+            {
+                "word": "Telescope",
+                "translation": "Телескоп",
+                "image": "space/telescope.svg",
+                "audio": "space/telescope.mp3"
+            },
+            {
+                "word": "Comet",
+                "translation": "Комета",
+                "image": "space/comet.svg",
+                "audio": "space/comet.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Planets",
+        "image": "planets/earth.svg",
+        "href": "/planets",
+        "content": [
+            {
+                "word": "Mercury",
+                "translation": "Меркурий",
+                "image": "planets/mercury.svg",
+                "audio": "planets/mercury.mp3"
+            },
+            {
+                "word": "Venus",
+                "translation": "Венера",
+                "image": "planets/venus.svg",
+                "audio": "planets/venus.mp3"
+            },
+            {
+                "word": "Earth",
+                "translation": "Земля",
+                "image": "planets/earth.svg",
+                "audio": "planets/earth.mp3"
+            },
+            {
+                "word": "Mars",
+                "translation": "Марс",
+                "image": "planets/mars.svg",
+                "audio": "planets/mars.mp3"
+            },
+            {
+                "word": "Jupiter",
+                "translation": "Юпитер",
+                "image": "planets/jupiter.svg",
+                "audio": "planets/jupiter.mp3"
+            },
+            {
+                "word": "Saturn",
+                "translation": "Сатурн",
+                "image": "planets/saturn.svg",
+                "audio": "planets/saturn.mp3"
+            },
+            {
+                "word": "Uranus",
+                "translation": "Уран",
+                "image": "planets/uranus.svg",
+                "audio": "planets/uranus.mp3"
+            },
+            {
+                "word": "Neptune",
+                "translation": "Нептун",
+                "image": "planets/neptune.svg",
+                "audio": "planets/neptune.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Christmas",
+        "image": "christmas/candles.svg",
+        "href": "/christmas",
+        "content": [
+            {
+                "word": "Snowman",
+                "translation": "Снеговик",
+                "image": "christmas/snowman.svg",
+                "audio": "christmas/snowman.mp3"
+            },
+            {
+                "word": "Candles",
+                "translation": "Свечи",
+                "image": "christmas/candles.svg",
+                "audio": "christmas/candles.mp3"
+            },
+            {
+                "word": "Presents",
+                "translation": "Подарки",
+                "image": "christmas/presents.svg",
+                "audio": "christmas/presents.mp3"
+            },
+            {
+                "word": "Balloons",
+                "translation": "Шарики",
+                "image": "christmas/balloons.svg",
+                "audio": "christmas/balloons.mp3"
+            },
+            {
+                "word": "Calendar",
+                "translation": "Календарь",
+                "image": "christmas/calendar.svg",
+                "audio": "christmas/calendar.mp3"
+            },
+            {
+                "word": "Fireplace",
+                "translation": "Камин",
+                "image": "christmas/fireplace.svg",
+                "audio": "christmas/fireplace.mp3"
+            },
+            {
+                "word": "Garlands",
+                "translation": "Гирлянды",
+                "image": "christmas/garlands.svg",
+                "audio": "christmas/garlands.mp3"
+            },
+            {
+                "word": "Snowflake",
+                "translation": "Снежинка",
+                "image": "christmas/snowflakes.svg",
+                "audio": "christmas/snowflakes.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Food",
+        "image": "food/bananas.svg",
+        "href": "/food",
+        "content": [
+            {
+                "word": "Bananas",
+                "translation": "Бананы",
+                "image": "food/bananas.svg",
+                "audio": "food/bananas.mp3"
+            },
+            {
+                "word": "Coffee",
+                "translation": "Кофе",
+                "image": "food/coffee.svg",
+                "audio": "food/coffee.mp3"
+            },
+            {
+                "word": "Donut",
+                "translation": "Пончик",
+                "image": "food/donut.svg",
+                "audio": "food/donut.mp3"
+            },
+            {
+                "word": "French fries",
+                "translation": "Картошка фри",
+                "image": "food/french-fries.svg",
+                "audio": "food/french-fries.mp3"
+            },
+            {
+                "word": "Pizza",
+                "translation": "Пицца",
+                "image": "food/pizza.svg",
+                "audio": "food/pizza.mp3"
+            },
+            {
+                "word": "Ice cream",
+                "translation": "Мороженое",
+                "image": "food/ice-cream.svg",
+                "audio": "food/ice-cream.mp3"
+            },
+            {
+                "word": "Chocolate",
+                "translation": "Шоколад",
+                "image": "food/chocolate.svg",
+                "audio": "food/chocolate.mp3"
+            },
+            {
+                "word": "Hamburger",
+                "translation": "Гамбургер",
+                "image": "food/hamburger.svg",
+                "audio": "food/hamburger.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Food 2",
+        "image": "food2/pudding.svg",
+        "href": "/food2",
+        "content": [
+            {
+                "word": "Cake",
+                "translation": "Торт",
+                "image": "food2/cake.svg",
+                "audio": "food2/cake.mp3"
+            },
+            {
+                "word": "Berries",
+                "translation": "Ягоды",
+                "image": "food2/berries.svg",
+                "audio": "food2/berries.mp3"
+            },
+            {
+                "word": "Cheese",
+                "translation": "Сыр",
+                "image": "food2/cheese.svg",
+                "audio": "food2/cheese.mp3"
+            },
+            {
+                "word": "Pancakes",
+                "translation": "Блины",
+                "image": "food2/pancakes.svg",
+                "audio": "food2/pancakes.mp3"
+            },
+            {
+                "word": "Pudding",
+                "translation": "Пудинг",
+                "image": "food2/pudding.svg",
+                "audio": "food2/pudding.mp3"
+            },
+            {
+                "word": "Cookies",
+                "translation": "Печенье",
+                "image": "food2/cookies.svg",
+                "audio": "food2/cookies.mp3"
+            },
+            {
+                "word": "Sausage",
+                "translation": "Колбаса",
+                "image": "food2/sausage.svg",
+                "audio": "food2/sausage.mp3"
+            },
+            {
+                "word": "Salad",
+                "translation": "Салат",
+                "image": "food2/salad.svg",
+                "audio": "food2/salad.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Food 3",
+        "image": "food3/fish.svg",
+        "href": "/food3",
+        "content": [
+            {
+                "word": "Cupcake",
+                "translation": "Кекс",
+                "image": "food3/cupcake.svg",
+                "audio": "food3/cupcake.mp3"
+            },
+            {
+                "word": "Brownie",
+                "translation": "Брауни",
+                "image": "food3/brownie.svg",
+                "audio": "food3/brownie.mp3"
+            },
+            {
+                "word": "Candy",
+                "translation": "Конфета",
+                "image": "food3/candy.svg",
+                "audio": "food3/candy.mp3"
+            },
+            {
+                "word": "Bread",
+                "translation": "Хлеб",
+                "image": "food3/bread.svg",
+                "audio": "food3/bread.mp3"
+            },
+            {
+                "word": "Juice",
+                "translation": "Сок",
+                "image": "food3/juice.svg",
+                "audio": "food3/juice.mp3"
+            },
+            {
+                "word": "Cocoa",
+                "translation": "Какао",
+                "image": "food3/cocoa.svg",
+                "audio": "food3/cocoa.mp3"
+            },
+            {
+                "word": "Fish",
+                "translation": "Рыба",
+                "image": "food3/fish.svg",
+                "audio": "food3/fish.mp3"
+            },
+            {
+                "word": "Tea",
+                "translation": "Чай",
+                "image": "food3/tea.svg",
+                "audio": "food3/tea.mp3"
+            }
+        ]
+    },
+    {
+        "title": "Animals",
+        "image": "animals/lion.svg",
+        "href": "/animals",
+        "content": [
+            {
+                "word": "Bison",
+                "translation": "Бизон",
+                "image": "animals/bison.svg",
+                "audio": "animals/bison.mp3"
+            },
+            {
+                "word": "Camel",
+                "translation": "Верблюд",
+                "image": "animals/camel.svg",
+                "audio": "animals/camel.mp3"
+            },
+            {
+                "word": "Gorilla",
+                "translation": "Горилла",
+                "image": "animals/gorilla.svg",
+                "audio": "animals/gorilla.mp3"
+            },
+            {
+                "word": "Lemur",
+                "translation": "Лемур",
+                "image": "animals/lemur.svg",
+                "audio": "animals/lemur.mp3"
+            },
+            {
+                "word": "Lion",
+                "translation": "Лев",
+                "image": "animals/lion.svg",
+                "audio": "animals/lion.mp3"
+            },
+            {
+                "word": "Penguin",
+                "translation": "Пингвин",
+                "image": "animals/penguin.svg",
+                "audio": "animals/penguin.mp3"
+            },
+            {
+                "word": "Sloth",
+                "translation": "Ленивец",
+                "image": "animals/sloth.svg",
+                "audio": "animals/sloth.mp3"
+            },
+            {
+                "word": "Tiger",
+                "translation": "Тигр",
+                "image": "animals/tiger.svg",
+                "audio": "animals/tiger.mp3"
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+{
+    "extends": "airbnb-base",
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "ecmaVersion": 2020,
+        "sourceType": "module",
+        "babelOptions": {
+            "configFile": "./.babelrc"
+        }
+    },
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "no-console": "warn",
+        "default-case": "off",
+        "no-unused-vars": "warn",
+        "class-methods-use-this": "off",
+        "func-names": ["error", "never"],
+        "comma-dangle": ["error", "never"],
+        "space-before-function-paren": "off",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+        "max-classes-per-file": "off",
+        "object-curly-newline": "off"
+    },
+    "plugins": [
+        "@babel"
+    ]
+}

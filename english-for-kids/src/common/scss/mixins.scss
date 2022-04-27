@@ -1,0 +1,108 @@
+@function adaptive($value) {
+    @return $value * 0.096vw;
+}
+
+@mixin header-logo-text {
+    font-size: 19px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.011em;
+}
+
+@mixin menu-title-text {
+    font-size: 24px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.011em;
+}
+
+@mixin menu-body-text {
+    font-size: 19px;
+    line-height: 1.14286;
+    font-weight: 500;
+    letter-spacing: 0.011em;
+}
+
+@mixin category-title-text() {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin category-card-text() {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin start-game-text() {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin popup-text() {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin disable-outline {
+    outline: none;
+
+    &:focus-visible {
+        outline: auto;
+    }
+
+    &:-moz-focusring {
+        outline: auto;
+    }
+}
+
+@mixin categories-title-text() {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin categories-card-text() {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin error-page-text($fontSize) {
+    font-size: $fontSize;
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+@mixin button() {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.07143;
+    letter-spacing: -0.005em;
+    text-align: center;
+}
+
+@mixin footer-text {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.33337;
+    letter-spacing: -0.01em;
+    align-items: center;
+}

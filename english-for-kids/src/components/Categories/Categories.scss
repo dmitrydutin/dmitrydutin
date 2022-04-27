@@ -1,0 +1,70 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.categories {
+    padding: 40px 0 50px;
+
+    &__title {
+        color: $categoriesTitleColor;
+        @include categories-title-text;
+    }
+
+    &__cards {
+        margin-top: 55px;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        gap: 25px;
+
+        @media (max-width: 1070px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (max-width: 800px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @media (max-width: 550px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        user-select: none;
+
+        border-radius: 25px;
+        border: 1px solid transparent;
+        background-color: $categoriesCardBackgroundColor;
+        box-shadow: $categoriesCardShadow;
+
+        transition: border 0.13s ease;
+
+        @media (max-width: 1070px) {
+            border-radius: adaptive(25);
+        }
+
+        &:hover {
+            border: 1px solid $categoriesCardHoverBorderColor;
+        }
+
+        &.active:hover {
+            border: 1px solid $categoriesCardActiveBorderColor;
+        }
+
+        &__image {
+            margin: 40px;
+            width: calc(100% - 80px);
+            pointer-events: none;
+        }
+
+        &__description {
+            padding: 25px 35px 30px;
+            border-top: 1px solid $categoriesCardCenterBorderColor;
+
+            @include categories-card-text;
+        }
+    }
+}

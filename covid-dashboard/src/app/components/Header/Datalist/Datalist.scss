@@ -1,0 +1,41 @@
+@import '../../../../common/variables.scss';
+
+.datalist {
+    width: 100%;
+    max-height: calc(100vh - 11px);
+    overflow-y: scroll;
+
+    border-radius: 5px;
+    background-color: $datalist-background-color;
+
+    position: absolute;
+    top: 45px;
+    z-index: 1500;
+
+    display: flex;
+    flex-direction: column;
+
+    &--hide {
+        display: none;
+    }
+
+    & > div {
+        padding: 10px;
+        padding-left: 13px;
+
+        font-size: 14px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $datalist-background-color-hover;
+        }
+
+        &:first-child {
+            margin-top: 8px;
+        }
+
+        &:last-child {
+            margin-bottom: 8px;
+        }
+    }
+}

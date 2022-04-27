@@ -1,0 +1,31 @@
+@import '../../../../common/variables.scss';
+@import '../../../../common/mixins.scss';
+
+.covid-diagram {
+    grid-area: diagram;
+    position: relative;
+
+    border-radius: 5px;
+    border: 1px solid $primary-border-color;
+    background-color: $primary-color;
+
+    &.light {
+        border: 1px solid $primary-border-color-light;
+        background-color: $primary-color-light;
+    }
+
+    &.scale {
+        @include block-scale;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 1044px;
+        margin: 0 auto;
+    }
+}
+
+.prev-category-icon,
+.next-category-icon {
+    margin: 10px 7px 0;
+}

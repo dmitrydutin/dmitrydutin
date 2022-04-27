@@ -1,0 +1,31 @@
+@import '../../common/scss/variables.scss';
+@import '../../common/scss/mixins.scss';
+
+.switch-mode {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+
+    width: 60px;
+    height: 60px;
+
+    @include disable-outline;
+    border-radius: 50%;
+
+    cursor: pointer;
+    box-shadow: $switchModeShadow;
+    background-color: $switchModeBackgroundColor;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    background-image: url('../../assets/images/play-button.svg');
+
+    @media (max-width: 1070px) {
+        right: 30px;
+        bottom: 30px;
+    }
+
+    &.active {
+        background-image: url('../../assets/images/stop-button.svg');
+    }
+}

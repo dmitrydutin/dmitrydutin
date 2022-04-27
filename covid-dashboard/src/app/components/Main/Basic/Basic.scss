@@ -1,0 +1,28 @@
+@import '../../../../common/variables.scss';
+@import '../../../../common/mixins.scss';
+
+.scale-button {
+    width: 26px;
+    height: 26px;
+    z-index: 1100;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: $primary-color;
+
+    background-image: url('../../../../assets/images/increase.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+
+    @include disable-outline;
+}
+
+.scale-button--scaled {
+    background-image: url('../../../../assets/images/reduce.svg');
+}

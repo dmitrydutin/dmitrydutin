@@ -1,0 +1,37 @@
+@import '../../../common/variables.scss';
+
+.main {
+    padding: 24px;
+    position: relative;
+    min-height: 650px;
+
+    background-color: $secondary-color;
+
+    &.light {
+        background-color: $primary-background-color-light;
+    }
+
+    &__inner {
+        position: relative;
+        display: grid;
+        gap: 15px;
+
+        grid-template-columns: 2fr 5fr 3fr;
+        grid-auto-rows: auto;
+        grid-template-areas:
+            'list map table'
+            'list map diagram';
+
+        @media (max-width: 1340px) {
+            grid-template-columns: 2fr 2fr 3fr;
+            grid-template-areas:
+                'list map map'
+                'table table diagram';
+        }
+
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr;
+            grid-template-areas: 'list' 'map' 'table' 'diagram';
+        }
+    }
+}

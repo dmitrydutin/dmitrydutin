@@ -1,0 +1,176 @@
+@import '../../../../common/variables.scss';
+
+.keyboard {
+    width: 910px;
+    padding: 8px;
+    z-index: 1600;
+
+    position: fixed;
+    left: 3px;
+    bottom: 3px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+
+    user-select: none;
+    border-radius: 10px;
+    transition: bottom 0.4s;
+    background-color: $keyboard-background-color;
+    background: $keyboard-background-linear-gradient;
+    box-shadow: $keyboard-box-shadow;
+
+    &--hidden {
+        bottom: -100%;
+    }
+
+    @media (max-width: 920px) {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+
+        border-radius: 0;
+        row-gap: 0.97875vw;
+
+        &--hidden {
+            bottom: -100%;
+        }
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard__key {
+    width: 55px;
+    height: 55px;
+    padding: 7.5px;
+
+    color: $keyboard-key-color;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: $keyboard-key-text-shadow;
+
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid $keyboard-key-border-color;
+    background: $keyboard-key-background-linear-gradient;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: $keyboard-key-box-shadow;
+    transition: background-color 0.09s ease-out, box-shadow 0.09s ease-out,
+        transform 0.09s ease-out;
+
+    @media (max-width: 920px) {
+        width: 6vw;
+        height: 6vw;
+        padding: 0.81vw;
+        font-size: 14px;
+        border-radius: 0.655vw;
+        border: 0.109vw solid $keyboard-key-border-color;
+    }
+
+    &.close {
+        background: url('../../../../assets/images/keyboard-close.svg')
+            center/43% no-repeat $keyboard-key-close-background-color;
+    }
+
+    img {
+        width: 48%;
+    }
+
+    &:active {
+        transform: scale(0.983);
+        box-shadow: none;
+    }
+
+    &.pressed {
+        transform: scale(0.983);
+        box-shadow: none;
+    }
+
+    &.low {
+        height: 43px;
+    }
+
+    &.md {
+        width: 80px;
+        @media (max-width: 920px) {
+            width: 8.7vw;
+        }
+    }
+
+    &.lg {
+        width: 100px;
+        @media (max-width: 920px) {
+            width: 10.9vw;
+        }
+    }
+
+    &.xl {
+        width: 130px;
+        @media (max-width: 920px) {
+            width: 14.28vw;
+        }
+    }
+
+    &.space {
+        width: 340px;
+        @media (max-width: 920px) {
+            width: 37.36vw;
+        }
+    }
+
+    &.activatable::after {
+        content: '';
+        width: 4px;
+        height: 4px;
+
+        border-radius: 50%;
+        background-color: $keyboard-key-activatable-background-color;
+
+        position: absolute;
+        top: 8px;
+        left: 8px;
+
+        @media (max-width: 920px) {
+            top: 0.87vw;
+            left: 0.87vw;
+        }
+    }
+
+    &.active::after {
+        background-color: $keyboard-key-active-background-color;
+    }
+
+    &.arrow-left::before {
+        content: '';
+        width: 0;
+        height: 0;
+        border: solid 3.4px;
+        border-right-width: 6.8px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+
+    &.arrow-right:before {
+        content: '';
+        width: 0;
+        height: 0;
+        border: solid 3.4px;
+        border-right-width: 6.8px;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        transform: rotate(180deg);
+    }
+}
