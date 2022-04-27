@@ -9,11 +9,13 @@ In my spare time, I create beautiful and productive applications.
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dmitrydutin)
 
 ### Projects:
+- [FreeSMI](https://freesmi.herokuapp.com/)
 - [English for kids](https://dmitrydutin-english-for-kids.netlify.app/)
 - [Covid dashboard](https://dev-covid-dashboard.netlify.app/)
 - [Gem puzzle](https://dmitrydutin.github.io/dmitrydutin/gem-puzzle/dist/index.html)
 - [Shelter](https://dmitrydutin.github.io/dmitrydutin/shelter/pages/main/main.html)
 - [Momentum](https://dmitrydutin.github.io/dmitrydutin/momentum/)
+- [Virtual keyboard](https://dmitrydutin.github.io/dmitrydutin/virtual-keyboard/)
 - [Webdev](https://dmitrydutin.github.io/dmitrydutin/webdev/)
 - [Calculator](https://dmitrydutin.github.io/dmitrydutin/calculator/)
 
