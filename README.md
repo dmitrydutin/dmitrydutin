@@ -10,8 +10,8 @@ In my spare time, I create beautiful and productive applications.
 
 ### Projects:
 - [FreeSMI](https://freesmi.herokuapp.com/) (team project)
-- [English for kids](https://dmitrydutin-english-for-kids.netlify.app/)
 - [Covid dashboard](https://dev-covid-dashboard.netlify.app/) (team project)
+- [English for kids](https://dmitrydutin-english-for-kids.netlify.app/)
 - [Gem puzzle](https://dmitrydutin.github.io/dmitrydutin/gem-puzzle/dist/index.html)
 - [Shelter](https://dmitrydutin.github.io/dmitrydutin/shelter/pages/main/main.html)
 - [Momentum](https://dmitrydutin.github.io/dmitrydutin/momentum/)
